@@ -6,17 +6,16 @@ import Catalog from '../pages/Catalog';
 import About from '../pages/About';
 import Index from "../pages/Index";
 import Show from "../pages/Show";
+import Contact from '../pages/Conctact';
 
 function Main(props) {
 
     
     const [ catalog, setCatalog ] = useState(null);
-    
-    const API_URL = 'http://localhost:4000/api/catalog/';
 
     const getData = async () => {
         try {
-            const response = await fetch(API_URL);
+            const response = await fetch();
             const data = await response.json();
             setCatalog(data);
         } catch (error) {
@@ -32,9 +31,16 @@ function Main(props) {
         <main>
             <Routes>
                 <Route path="/" element={<Index />} />
-                <Route path="/catalogo/:id" element ={<Show />} />
-                <Route path="/catalogo/" element ={<Catalog catalog={catalog} />} />
                 <Route path="/About" element ={<About />} />
+                <Route path="/catalogo/" element ={<Catalog
+                            catalog={catalog}
+                        />} 
+                  />
+                 <Route path="/catalogo/:id" element ={<Show
+                            catalog={catalog} 
+                        />} 
+                 />
+                <Route path="/Contacto" element ={<Contact />} />
             </Routes>
         </main>
     );

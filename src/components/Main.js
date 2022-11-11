@@ -6,7 +6,7 @@ import Catalog from '../pages/Catalog';
 import About from '../pages/About';
 import Index from "../pages/Index";
 import Show from "../pages/Show";
-import Contact from '../pages/Conctact';
+import Contact from '../pages/Contact';
 
 function Main(props) {
 

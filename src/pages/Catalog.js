@@ -10,72 +10,49 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/image-2.jpg'
-              text='A app to record your personal Expenses with Python'
-              label='Expense-list'
-              path='https://expense-list001.herokuapp.com/'
+              src='images/gel.jpeg'
+              text='Gel antibacterial al 70% base de alcohol etílico '
+              label='Gel antibacterial'
+              price='$50'
             />
             <CardItem
-              src='images/image-3.png'
-              text='An inventory Management App with Node.JS, Express and MongoDB'
-              label='Inventory Management'
-              path to='http://project-2bryan.herokuapp.com/'
+              src='images/fabuloso.jpeg'
+              text='Limpiador para pisos 
+              Tipo Fabuloso 
+              Esencia lavanda'
+              label='Fabuloso'
+              price='$50'
             />
-            {/* <CardItem
-              src='images/image-4.png'
-              text='An Covid tracker App for Mexico made with HTML, JavaScript, JSON and JQuery'
-              label='Mexico Covid Tracker'
-              path='https://jocular-belekoy-567b32.netlify.app/'
-            /> */}
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/image-2.jpg'
-              text='A app to record your personal Expenses with Python'
-              label='Expense-list'
-              path='https://expense-list001.herokuapp.com/'
+              src='images/Bolsas.jpeg'
+              text='Bolsas negra Jumbo 90 x 120 cm'
+              label='Bolsa Jumbo'
+              price='$50'
             />
             <CardItem
-              src='images/image-3.png'
-              text='An inventory Management App with Node.JS, Express and MongoDB'
-              label='Inventory Management'
-              path to='http://project-2bryan.herokuapp.com/'
+              src='images/jabon.jpeg'
+              text='Jabón líquido para manos esencia naranja'
+              label='Jabón líquido para manos'
+              price='$50'
             />
-            {/* <CardItem
-              src='images/image-4.png'
-              text='An Covid tracker App for Mexico made with HTML, JavaScript, JSON and JQuery'
-              label='Mexico Covid Tracker'
-              path='https://jocular-belekoy-567b32.netlify.app/'
-            /> */}
           </ul>
+
+          <h1>Productos sobre pedido</h1>
           <ul className='cards__items'>
             <CardItem
-              src='images/image-2.jpg'
+              src='images/default-placeholder.png'
               text='A app to record your personal Expenses with Python'
               label='Expense-list'
-              path='https://expense-list001.herokuapp.com/'
+              price='$50'
             />
             <CardItem
-              src='images/image-3.png'
+              src='images/default-placeholder.png'
               text='An inventory Management App with Node.JS, Express and MongoDB'
               label='Inventory Management'
-              path to='http://project-2bryan.herokuapp.com/'
+              price='$50'
             />
-            {/* <CardItem
-              src='images/image-4.png'
-              text='An Covid tracker App for Mexico made with HTML, JavaScript, JSON and JQuery'
-              label='Mexico Covid Tracker'
-              path='https://jocular-belekoy-567b32.netlify.app/'
-            /> */}
-          </ul>
-          <ul className='cards__items'>
-  
-            {/* <CardItem
-              src='images/image-4.png'
-              text='An Covid tracker App for Mexico made with HTML, JavaScript, JSON and JQuery'
-              label='Mexico Covid Tracker'
-              path='https://jocular-belekoy-567b32.netlify.app/'
-            /> */}
           </ul>
         </div>
       </div>

@@ -9,7 +9,6 @@
     height: 100vh;
     align-content: center; 
     padding: 0 20rem;
-    width: 100%;
     justify-content: space-between;
 }
 
@@ -21,7 +20,23 @@
     margin: 5rem;
     text-align: center;
     padding: 1rem;
-    height: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: space-around;
+    height: 30rem;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    justify-content: space-around;
+    box-shadow: 10px 10px 5px lightblue;
 }
 
 .social-icons {
@@ -30,34 +45,37 @@
     justify-content: space-between;
 }
 
-.contactInfo {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    width: 50rem;
-    justify-content: space-between;
+.social-icons:hover {
+  background-color: black;
+  color: #242424;
+  border-radius: 0;
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
 }
 
-.contactForm {
-    display: flex;
-    flex-direction: column;
-    width: max-content;
-    justify-content: space-between;
-    width: 50rem;
+.submitButton {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: smaller;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .contactBoxes {
     width: 20rem;
     height: 2rem;
+    border-radius: 10px;
+    text-align:  center;
 }
 
 .contactBox {
     width: 20rem;
     height: 10rem;
-    padding-bottom: 10px;
+    border-radius: 10px;
+    text-align:  center;
 }
-
-
 
 .footer-input {
     padding: 8px 20px;

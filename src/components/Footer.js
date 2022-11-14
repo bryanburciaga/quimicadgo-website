@@ -30,20 +30,20 @@ function Footer() {
           <small class='website-rights'>Química Durango © 2022</small>
           <div class='social-icons'>
             <a href='https://www.facebook.com/profile.php?id=100064217254366'
-             class='social-icon-link facebook'
-             target="_blank" 
-             rel="noopener noreferrer"
-             aria-label='Facebook'>
-        <i class='fab fa-facebook-f' />
+              class='social-icon-link facebook'
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label='Facebook'>
+              <i class='fab fa-facebook-f' />
             </a>
-                  <a href="https://wa.me/526183330007"
+            <a href="https://wa.me/526183330007"
                   class='social-icon-link whatsapp'
                   target="_blank" 
                   rel="noopener noreferrer"
                   aria-label='Facebook'>
                   <i class="fa fa-whatsapp" aria-hidden="true">Whatsapp</i>
             </a>
-            </div>
+          </div>
         </div>
       </section>
     </div>

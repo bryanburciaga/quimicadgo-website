@@ -39,7 +39,7 @@ function Cards() {
             />
           </ul>
 
-          <h1>Productos sobre pedido</h1>
+          {/* <h1 className='pedido'>Productos sobre pedido</h1>
           <ul className='cards__items'>
             <CardItem
               src='images/default-placeholder.png'
@@ -53,7 +53,7 @@ function Cards() {
               label='Inventory Management'
               price='$50'
             />
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>

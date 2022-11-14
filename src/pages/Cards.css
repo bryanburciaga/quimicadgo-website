@@ -6,6 +6,10 @@
   h1 {
     text-align: center;
   }
+
+  .pedido {
+    padding: 2rem 0;
+  }
   
   .cards__container {
     display: flex;

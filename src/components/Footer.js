@@ -34,14 +34,16 @@ function Footer() {
               target="_blank" 
               rel="noopener noreferrer"
               aria-label='Facebook'>
-              <i class='fab fa-facebook-f' />
+              <i class='fab fa-facebook-f'>Química Durango</i>
             </a>
+            </div>
+            <div class='social-icons'>
             <a href="https://wa.me/526183330007"
                   class='social-icon-link whatsapp'
                   target="_blank" 
                   rel="noopener noreferrer"
                   aria-label='Facebook'>
-                  <i class="fa fa-whatsapp" aria-hidden="true">Whatsapp</i>
+                  <i class="fa fa-whatsapp" aria-hidden="true">618-333-0007</i>
             </a>
           </div>
         </div>

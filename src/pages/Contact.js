@@ -51,6 +51,7 @@ function Contact() {
              aria-label='Facebook'>618-333-0007</i>
             </div>
         </div>
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=negrete%20418&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div>
         {/* <div className="contactForm">
                 <label>Nombre:
                     <input className='contactBoxes' type="text" name="" id="" placeholder='Name' />

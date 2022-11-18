@@ -10,11 +10,8 @@
     justify-content: center;
 }
 
-.contactInfo {
-    border-color: black;
-    border-style: solid;
+.contactInfo, .mapouter {
     border-radius: 20px;
-    border-width: 2px;
     margin: 5rem;
     text-align: center;
     padding: 1rem;
@@ -27,6 +24,10 @@
     background-color: black;
     justify-content: space-around;
     height: 30rem;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
 }
 
 /* .contactForm {

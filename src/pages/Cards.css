@@ -10,6 +10,13 @@
   .pedido {
     padding: 2rem 0;
   }
+
+  /* ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  } */
   
   .cards__container {
     display: flex;

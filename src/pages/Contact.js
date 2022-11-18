@@ -47,13 +47,11 @@ function Contact() {
                 aria-label='Facebook'>
                 <i class="material-icons" aria-hidden="true"></i>Negrete 418 ote, zona centro. Durango, Durango.
             </a>
-            
-            
             <i class="fa fa-phone"
              aria-label='Facebook'>618-333-0007</i>
             </div>
         </div>
-        <div className="contactForm">
+        {/* <div className="contactForm">
                 <label>Nombre:
                     <input className='contactBoxes' type="text" name="" id="" placeholder='Name' />
                 </label>
@@ -64,7 +62,7 @@ function Contact() {
                     <input className='contactBox' type="text" placeholder='Descripción del producto' />
                 </label>
                 <input className='submitButton' type="submit" />
-        </div>
+        </div> */}
     </div>
     </>
   )

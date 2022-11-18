@@ -9,12 +9,19 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
+            {/* <details>
+              <summary>Gel</summary>
+              <p> */}
             <CardItem
               src='images/gel.jpeg'
               text='Gel antibacterial al 70% base de alcohol etílico '
               label='Gel antibacterial'
               price='$50'
             />
+            {/* </p></details>
+               <details>
+              <summary>Fabuloso</summary>
+              <p> */}
             <CardItem
               src='images/fabuloso.jpeg'
               text='Limpiador para pisos 
@@ -23,6 +30,8 @@ function Cards() {
               label='Fabuloso'
               price='$50'
             />
+            {/* </p></details>
+             */}
           </ul>
           <ul className='cards__items'>
             <CardItem

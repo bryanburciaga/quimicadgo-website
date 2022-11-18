@@ -1,18 +1,16 @@
-.contact {
-
-}
-
 .row {
     display: flex;
     flex-direction: row;
     padding-top: 5rem;
     height: 100vh;
+    width: 100%;
     align-content: center; 
     padding: 0 20rem;
     justify-content: space-between;
+    justify-content: center;
 }
 
-.contactInfo, .contactForm {
+.contactInfo {
     border-color: black;
     border-style: solid;
     border-radius: 20px;
@@ -31,13 +29,13 @@
     height: 30rem;
 }
 
-.contactForm {
+/* .contactForm {
     display: flex;
     flex-direction: column;
     width: max-content;
     justify-content: space-around;
     box-shadow: 10px 10px 5px lightblue;
-}
+} */
 
 .social-icons {
     display: flex;
